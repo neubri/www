@@ -1,8 +1,8 @@
-# News App (www & fe-news-app)
+# WWW - News App
 
 ## Overview
 
-News App is a full-stack web application for managing and publishing news articles. It consists of a backend RESTful API (`www`, be-news-app) and a modern frontend client (`fe-news-app`). The platform supports public article browsing and a CMS dashboard for admins and staff to manage content.
+WWW is a full-stack web application for managing and publishing news articles. It consists of a backend RESTful API (`www`, be-news-app) and a modern frontend client (`fe-news-app`). The platform supports public article browsing and a CMS dashboard for admins and staff to manage content.
 
 ---
 
