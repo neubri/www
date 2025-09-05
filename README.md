@@ -2,7 +2,7 @@
 
 ## Overview
 
-WWW is a full-stack web application for managing and publishing news articles. It consists of a backend RESTful API (`www`, be-news-app) and a modern frontend client (`fe-news-app`). The platform supports public article browsing and a CMS dashboard for admins and staff to manage content.
+WWW is a full-stack web application for managing and publishing news articles. It consists of a backend RESTful API and a modern frontend client. The platform supports public article browsing and a CMS dashboard for admins and staff to manage content.
 
 ---
 
