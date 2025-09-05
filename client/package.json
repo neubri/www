@@ -1,39 +1,31 @@
 {
-  "name": "gc01-neubri",
-  "version": "1.0.0",
-  "description": "[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19733216&assignment_repo_type=AssignmentRepo)\r # P2-Challenge-1 (Server Side)",
-  "main": "index.js",
+  "name": "news-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "jest --detectOpenHandles --verbose --forceExit --runInBand --coverage",
-    "dev": "npx nodemon bin/www"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/H8-FSJS-P2S6/gc01-neubri.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/H8-FSJS-P2S6/gc01-neubri/issues"
-  },
-  "homepage": "https://github.com/H8-FSJS-P2S6/gc01-neubri#readme",
   "dependencies": {
-    "axios": "^1.9.0",
-    "bcrypt": "^6.0.0",
-    "cloudinary": "^2.6.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "multer": "^2.0.1",
-    "pg": "^8.16.0",
-    "sequelize": "^6.37.7"
+    "axios": "^1.10.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router": "^7.6.2",
+    "react-router-dom": "^7.6.2",
+    "sweetalert2": "^11.22.0"
   },
   "devDependencies": {
-    "jest": "^30.0.0",
-    "nodemon": "^3.1.10",
-    "sequelize-cli": "^6.6.3",
-    "supertest": "^7.1.1"
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
   }
 }
