@@ -40,8 +40,8 @@ WWW is a full-stack web application for managing and publishing news articles. I
 
 ## Project Structure
 
-- `be-news-app/` — Backend REST API (Express, Sequelize, PostgreSQL)
-- `fe-news-app/` — Frontend client (React, Vite)
+- `server/` — Backend REST API (Express, Sequelize, PostgreSQL)
+- `client/` — Frontend client (React, Vite)
 
 ---
 
@@ -87,7 +87,7 @@ WWW is a full-stack web application for managing and publishing news articles. I
 
 ### Frontend
 
-1. Navigate to `fe-news-app`
+1. Navigate to `client`
 2. Install dependencies: `npm install`
 3. Start development server: `npm run dev`
 
