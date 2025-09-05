@@ -8,7 +8,7 @@ WWW is a full-stack web application for managing and publishing news articles. I
 
 ## Features
 
-**Frontend (fe-news-app):**
+**Frontend (client):**
 
 - Responsive public portal for browsing articles and categories
 - Article detail view
@@ -19,7 +19,7 @@ WWW is a full-stack web application for managing and publishing news articles. I
   - Add staff users
 - Modern UI built with React and Vite
 
-**Backend (be-news-app):**
+**Backend (server):**
 
 - RESTful API for articles, categories, and users
 - JWT-based authentication and role-based authorization (Admin, Staff)
